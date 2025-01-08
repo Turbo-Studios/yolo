@@ -1,5 +1,7 @@
 # YOLO v10
 
+YOLO v10 implementation.
+
 ## Installation
 
 `conda` virtual environment is recommended. 
@@ -14,3 +16,9 @@ pip install  git+https://github.com/THU-MIG/yolov10.git
 ```
 
 Then, download the models from the [release page](https://github.com/Turbo-Studios/yolo/releases) to your project folder.
+
+## Use
+
+`yolov10-infer.py` will call your system's web camera and start a session.
+
+`gen_imgs.py` can capture your camera screen when `S` is pressed. The captured picture can be used to train your model after labeling.
